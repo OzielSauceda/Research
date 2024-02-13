@@ -15,7 +15,7 @@ def process_image(image):
     cv2.waitKey(1)
 
     # Save the image to disk (optional)
-    cv2.imwrite("carla_rgb_image.png", cv2.cvtColor(rgb_data, cv2.COLOR_RGB2BGR))
+    cv2.imwrite("C:/Users/jlz679/Desktop/Code/outputRGB", cv2.cvtColor(rgb_data, cv2.COLOR_RGB2BGR))
 
 # Connect to the Carla server
 client = carla.Client('localhost', 2000)
